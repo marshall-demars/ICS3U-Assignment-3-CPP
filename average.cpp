@@ -24,17 +24,17 @@ int main() {
 
     // process and output
     if (numberOne > 100) {
-        std::cout << "Please input a number between 1 and 100.";
+        std::cout << "\nPlease input a number between 1 and 100.";
     } else if (numberTwo > 100) {
-        std::cout << "Please input a number between 1 and 100.";
+        std::cout << "\nPlease input a number between 1 and 100.";
     } else if (numberThree > 100) {
-        std::cout << "Please input a number between 1 and 100.";
+        std::cout << "\nPlease input a number between 1 and 100.";
     } else if (numberOne < 0) {
-        std::cout << "Please input a number between 1 and 100.";
+        std::cout << "\nPlease input a number between 1 and 100.";
     } else if (numberTwo < 0) {
-        std::cout << "Please input a number between 1 and 100.";
+        std::cout << "\nPlease input a number between 1 and 100.";
     } else if (numberThree < 0) {
-        std::cout << "Please input a number between 1 and 100.";
+        std::cout << "\nPlease input a number between 1 and 100.";
     } else {
         average = (numberOne + numberTwo + numberThree) / 3;
         std::cout << "\nThe average is " << average << "!";
